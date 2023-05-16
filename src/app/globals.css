@@ -204,3 +204,17 @@ body{
   );
   color: var(--white);
 }
+
+
+@media only screen and (max-width: 545px) {
+
+  .statBox {
+    min-height: 200px;
+    min-width: 270px;
+    flex-direction: column;
+  }
+
+  .continueButton {
+    background-color: lightblue;
+  }
+}

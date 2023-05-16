@@ -205,25 +205,31 @@ body{
   color: var(--white);
 }
 
-.circleBigText{
+.circleBigText {
   font-size: 50px;
-   font-weight: 800;
+  font-weight: 800;
 }
 
-.greatTxt{
+.greatTxt {
   font-size: 24px;
-   font-weight: 500;
+  font-weight: 500;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
 @media only screen and (max-width: 545px) {
-
-  body{
+  body {
     padding: 0px;
     margin: 0px;
   }
 
-  .mainBox{
+  .mainBox {
     justify-content: left;
   }
 
@@ -232,11 +238,11 @@ body{
     flex-direction: column;
   }
 
-  .statusWindow{
+  .statusWindow {
     min-height: auto;
   }
 
-  .rotBox{
+  .rotBox {
     min-height: 230px;
     padding-bottom: 15px;
     border-radius: 0px;
@@ -244,21 +250,20 @@ body{
     border-bottom-right-radius: 20px;
   }
 
-  .txtclr{
+  .txtclr {
     height: 30px;
   }
 
-  .circleBox{
+  .circleBox {
     min-height: 100px;
     min-width: 100px;
   }
 
-  .circleBigText{
+  .circleBigText {
     font-size: 40px;
   }
 
-  .pEditingMedia{
-    
+  .pEditingMedia {
     display: flex;
     flex-direction: column;
     align-content: left;
@@ -271,18 +276,17 @@ body{
     padding-top: 0;
     padding-bottom: 0;
     font-size: 14px;
-
   }
 
-  .randomTxt{
+  .randomTxt {
     font-size: 12px;
   }
 
-  .greatTxt{
+  .greatTxt {
     font-size: 20px;
   }
 
-  .greatPara{   
+  .greatPara {
     margin-bottom: 5px;
   }
 }

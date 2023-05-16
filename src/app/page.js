@@ -17,7 +17,7 @@ export default function Home() {
             <p className="pEditingMedia">Your Result</p>
           </div>
           <div className="circleBox">
-            <div className = "circleBigText">76</div>
+            <div className="circleBigText">76</div>
             <div style={{ fontSize: "13px", color: "var(--light-lavender)" }}>
               of 100
             </div>
@@ -103,8 +103,18 @@ export default function Home() {
               </div>
             </div>
           </div>
-            <button className="continueButton">Continue</button>
+          <button className="continueButton">Continue</button>
         </div>
+      </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <div class="attribution">
+        Challenge by{" "}
+        <a href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by <a href="https://www.github.com/sinha-toyeesh">Toyeesh Sinha</a>.
       </div>
     </main>
   );

@@ -14,16 +14,16 @@ export default function Home() {
       <div className="statBox">
         <div className="rotBox">
           <div className="txtclr">
-            <p>Your Result</p>
+            <p className="pEditingMedia">Your Result</p>
           </div>
           <div className="circleBox">
-            <div style={{ fontSize: "50px", fontWeight: "800" }}>76</div>
+            <div className = "circleBigText">76</div>
             <div style={{ fontSize: "13px", color: "var(--light-lavender)" }}>
               of 100
             </div>
           </div>
-          <div style={{ fontSize: "24px", fontWeight: "500" }}>
-            <p>Great</p>
+          <div className="greatTxt">
+            <p className="greatPara">Great</p>
           </div>
 
           <div className="randomTxt">

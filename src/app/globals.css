@@ -205,16 +205,84 @@ body{
   color: var(--white);
 }
 
+.circleBigText{
+  font-size: 50px;
+   font-weight: 800;
+}
+
+.greatTxt{
+  font-size: 24px;
+   font-weight: 500;
+}
+
 
 @media only screen and (max-width: 545px) {
 
+  body{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .mainBox{
+    justify-content: left;
+  }
+
   .statBox {
-    min-height: 200px;
     min-width: 270px;
     flex-direction: column;
   }
 
-  .continueButton {
-    background-color: lightblue;
+  .statusWindow{
+    min-height: auto;
+  }
+
+  .rotBox{
+    min-height: 230px;
+    padding-bottom: 15px;
+    border-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .txtclr{
+    height: 30px;
+  }
+
+  .circleBox{
+    min-height: 100px;
+    min-width: 100px;
+  }
+
+  .circleBigText{
+    font-size: 40px;
+  }
+
+  .pEditingMedia{
+    
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    margin-top: 0;
+    margin-bottom: 2px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 14px;
+
+  }
+
+  .randomTxt{
+    font-size: 12px;
+  }
+
+  .greatTxt{
+    font-size: 20px;
+  }
+
+  .greatPara{   
+    margin-bottom: 5px;
   }
 }
